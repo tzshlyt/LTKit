@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LYKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of LYKit."
+  spec.summary      = "ios develop kit"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                        ios develop tools
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/LYKit"
+  spec.homepage     = "https://github.com/tzshlyt/LYKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:tzshlyt/LYKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/tzshlyt/LYKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LY_Category/*"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "LYKit/LY_Category/*"
+  spec.exclude_files = "LYKit/*.swift", "LYKit/Assets.xcassets", "LYKit/Base.lproj", "LYKit/Info.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -134,4 +135,5 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.swift_version = "5.0"
 end
