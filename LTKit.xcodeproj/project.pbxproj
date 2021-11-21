@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F860AE02746067800B6F415 /* LYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F860AE02746067800B6F415 /* LTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F860AE32746067800B6F415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F860AE52746067800B6F415 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F860AE72746067800B6F415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3F860AD72746067800B6F415 = {
 			isa = PBXGroup;
 			children = (
-				3F860AE22746067800B6F415 /* LYKit */,
+				3F860AE22746067800B6F415 /* LTKit */,
 				3F860AE12746067800B6F415 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,15 +50,15 @@
 		3F860AE12746067800B6F415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F860AE02746067800B6F415 /* LYKit.app */,
+				3F860AE02746067800B6F415 /* LTKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F860AE22746067800B6F415 /* LYKit */ = {
+		3F860AE22746067800B6F415 /* LTKit */ = {
 			isa = PBXGroup;
 			children = (
-				3F860AF7274620E100B6F415 /* LY_Category */,
+				3F860AF7274620E100B6F415 /* LT_Category */,
 				3F860AE32746067800B6F415 /* AppDelegate.swift */,
 				3F860AE52746067800B6F415 /* SceneDelegate.swift */,
 				3F860AE72746067800B6F415 /* ViewController.swift */,
@@ -67,23 +67,23 @@
 				3F860AEE2746067D00B6F415 /* LaunchScreen.storyboard */,
 				3F860AF12746067D00B6F415 /* Info.plist */,
 			);
-			path = LYKit;
+			path = LTKit;
 			sourceTree = "<group>";
 		};
-		3F860AF7274620E100B6F415 /* LY_Category */ = {
+		3F860AF7274620E100B6F415 /* LT_Category */ = {
 			isa = PBXGroup;
 			children = (
 				3F860AFA274626E700B6F415 /* String+LY_Add.swift */,
 			);
-			path = LY_Category;
+			path = LT_Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F860ADF2746067800B6F415 /* LYKit */ = {
+		3F860ADF2746067800B6F415 /* LTKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F860AF42746067D00B6F415 /* Build configuration list for PBXNativeTarget "LYKit" */;
+			buildConfigurationList = 3F860AF42746067D00B6F415 /* Build configuration list for PBXNativeTarget "LTKit" */;
 			buildPhases = (
 				3F860ADC2746067800B6F415 /* Sources */,
 				3F860ADD2746067800B6F415 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = LYKit;
-			productName = LYKit;
-			productReference = 3F860AE02746067800B6F415 /* LYKit.app */;
+			name = LTKit;
+			productName = LTKit;
+			productReference = 3F860AE02746067800B6F415 /* LTKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F860ADB2746067800B6F415 /* Build configuration list for PBXProject "LYKit" */;
+			buildConfigurationList = 3F860ADB2746067800B6F415 /* Build configuration list for PBXProject "LTKit" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F860ADF2746067800B6F415 /* LYKit */,
+				3F860ADF2746067800B6F415 /* LTKit */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CG974D6T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LYKit/Info.plist;
+				INFOPLIST_FILE = LTKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lllteam.LYKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lllteam.LTKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CG974D6T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LYKit/Info.plist;
+				INFOPLIST_FILE = LTKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lllteam.LYKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lllteam.LTKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F860ADB2746067800B6F415 /* Build configuration list for PBXProject "LYKit" */ = {
+		3F860ADB2746067800B6F415 /* Build configuration list for PBXProject "LTKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F860AF22746067D00B6F415 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F860AF42746067D00B6F415 /* Build configuration list for PBXNativeTarget "LYKit" */ = {
+		3F860AF42746067D00B6F415 /* Build configuration list for PBXNativeTarget "LTKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F860AF52746067D00B6F415 /* Debug */,

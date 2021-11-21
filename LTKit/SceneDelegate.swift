@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  LYKit
+//  LTKit
 //
 //  Created by lan on 11/18/21.
 //
